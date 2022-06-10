@@ -1,0 +1,13 @@
+{
+  "name": "Clevis Key Extractor",
+  "apiVersion": "1.0.0",
+  "author": "Jos Wetzels",
+  "version": "0.0.1",
+  "description": "Extracts Clevis TPM2 key from the SPI bus",
+  "extensions": {
+    "Clevis TPM2 Key Extractor": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.Hla"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "tpm2-tools Key Extractor",
+  "apiVersion": "1.0.0",
+  "author": "Jos Wetzels",
+  "version": "0.0.1",
+  "description": "Extracts tpm2-tools based keys (systemd-cryptsetup, safeboot, luks_tpm2) from the SPI bus",
+  "extensions": {
+    "tpm2-tools Key Extractor": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.Hla"
+    }
+  }
+}
